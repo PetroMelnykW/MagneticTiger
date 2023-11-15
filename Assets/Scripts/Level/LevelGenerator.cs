@@ -66,7 +66,7 @@ public class LevelGenerator : MonoBehaviour
         //Try create collectables objects 
         GameObject collectablesPrefab = _levelData.GetRandomCollectablesPrefab(goodness, size);
         if (collectablesPrefab != null) {
-            GameObject collectables = Instantiate(collectablesPrefab);
+            GameObject collectables = Instantiate(collectablesPrefab, zoneObject.transform.position, Quaternion.identity);
             zone.SetCollectables(collectables);
         }
 

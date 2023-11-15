@@ -24,6 +24,16 @@ MonoBehaviour:
   _badBigZoneCollectablesPrefabs: []
   _badMiddleZoneCollectablesPrefabs: []
   _badSmallZoneCollectablesPrefabs: []
-  _goodBigZoneCollectablesPrefabs: []
-  _goodMiddleZoneCollectablesPrefabs: []
+  _goodBigZoneCollectablesPrefabs:
+  - {fileID: 1107470991992347861, guid: bc1920d3214617c4197e91d6f31726f2, type: 3}
+  - {fileID: 1107470991992347861, guid: 4291c32e37bbecd4b89354a95cc6e411, type: 3}
+  - {fileID: 1107470991992347861, guid: 2f2c13544afd160429b7ee2281dfdbac, type: 3}
+  - {fileID: 1107470991992347861, guid: 242c14360163a69408004aaae1d6405c, type: 3}
+  _goodMiddleZoneCollectablesPrefabs:
+  - {fileID: 5751302614361440405, guid: 78b24dfd5078a784e992923934fddb2a, type: 3}
+  - {fileID: 5751302614361440405, guid: 71a3708337bd6844da1cdb9e930aceef, type: 3}
+  - {fileID: 5751302614361440405, guid: 60cef0fb1daae354a93d13111a336201, type: 3}
+  - {fileID: 5751302614361440405, guid: 71d92f4f776d5aa4c900979e14c5ed14, type: 3}
+  - {fileID: 5751302614361440405, guid: 2b252cbeeec848f48bbcb014351a013c, type: 3}
+  - {fileID: 5751302614361440405, guid: c8cacaef751fb41459f6b3f4091b9069, type: 3}
   _goodSmallZoneCollectablesPrefabs: []
