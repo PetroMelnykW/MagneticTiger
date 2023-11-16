@@ -1,3 +1,4 @@
+using Events;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -16,7 +17,7 @@ public class Player : MonoBehaviour
 
     public void Lose()
     {
-
+        Observer.Post(this, new GameLostEvent { });
     }
 
     private void Update()
@@ -32,6 +33,13 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (CurrentZone != null) {
+            // If all coin in the zone was not collected
+            if (CurrentZone.Collectables.Count > 0 && CurrentZone.Collectables[0] is Coin) {
+                Lose();
+            }
+        }
+
         CurrentZone = collision.GetComponent<Zone>();
         MovedToNextZone?.Invoke();
     }

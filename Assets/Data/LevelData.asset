@@ -21,9 +21,19 @@ MonoBehaviour:
   _bigZoneLength: 3.3
   _middleZoneLength: 2.475
   _smallZoneLength: 1.65
-  _badBigZoneCollectablesPrefabs: []
-  _badMiddleZoneCollectablesPrefabs: []
-  _badSmallZoneCollectablesPrefabs: []
+  _badBigZoneCollectablesPrefabs:
+  - {fileID: 1107470991992347861, guid: 0bc5a36fde122f24fbadaed82b18ce1b, type: 3}
+  - {fileID: 1107470991992347861, guid: 667230dbd9fce7444bf0e650bfdcdb3b, type: 3}
+  - {fileID: 1107470991992347861, guid: 2156c35986f71784eb1efa1cc5b6dcfc, type: 3}
+  - {fileID: 1107470991992347861, guid: 6d9e5c76d3e85a141afb9a933728bad1, type: 3}
+  _badMiddleZoneCollectablesPrefabs:
+  - {fileID: 1107470991992347861, guid: 79b5f9b23b84f0e49b73949eda46ddbe, type: 3}
+  - {fileID: 1107470991992347861, guid: 0a5da79af7ae18946a6ec15b9c94ff07, type: 3}
+  - {fileID: 1107470991992347861, guid: c75891b557665cc44958f6c6ec206537, type: 3}
+  _badSmallZoneCollectablesPrefabs:
+  - {fileID: 1107470991992347861, guid: b6eb6eff14157414ab19a16093dfd54f, type: 3}
+  - {fileID: 1107470991992347861, guid: e23d03816ba079c4688dc3bd2d5c5892, type: 3}
+  - {fileID: 1107470991992347861, guid: 283a2d1c71729964198ecf1f7f9addf8, type: 3}
   _goodBigZoneCollectablesPrefabs:
   - {fileID: 1107470991992347861, guid: bc1920d3214617c4197e91d6f31726f2, type: 3}
   - {fileID: 1107470991992347861, guid: 4291c32e37bbecd4b89354a95cc6e411, type: 3}
@@ -36,4 +46,6 @@ MonoBehaviour:
   - {fileID: 5751302614361440405, guid: 71d92f4f776d5aa4c900979e14c5ed14, type: 3}
   - {fileID: 5751302614361440405, guid: 2b252cbeeec848f48bbcb014351a013c, type: 3}
   - {fileID: 5751302614361440405, guid: c8cacaef751fb41459f6b3f4091b9069, type: 3}
-  _goodSmallZoneCollectablesPrefabs: []
+  _goodSmallZoneCollectablesPrefabs:
+  - {fileID: 5751302614361440405, guid: 1a521988946e97c43a096d5e6384eaa1, type: 3}
+  - {fileID: 5751302614361440405, guid: 67a1a833afca6314f8645bf25a230aff, type: 3}

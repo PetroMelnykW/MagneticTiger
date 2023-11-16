@@ -6,7 +6,9 @@ public class CoinManager
 {
     [Header("Dependencies")]
     [SerializeReference]
-    private TextMeshPro _coinLabel;
+    private TMP_Text _coinLabel;
+
+    public int Amount => _amount;
 
     private int _amount = 0;
 
